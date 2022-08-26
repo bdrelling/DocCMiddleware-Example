@@ -2,9 +2,22 @@
 
 An example project for the DocCMiddleware package.
 
+## Running the Website
+
+Type `swift run Example` into your terminal from the root of the repository to run the example website. The command will output the URL to navigate to, which will most likely be `http://127.0.0.1:8080`.
+
+### Example Output
+
+```sh
+$ swift run Example
+Building for debugging...
+Build complete! (0.18s)
+[ NOTICE ] Server starting on http://127.0.0.1:8080
+```
+
 ## Generate Documentation
 
-To regenerate documentation, run `scripts/docgen.sh` from the root of the repository.
+Regenerate documentation by running `scripts/docgen.sh` from the root of the repository.
 
 ## More Examples
 
