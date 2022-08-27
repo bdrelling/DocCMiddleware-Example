@@ -1,6 +1,6 @@
 # DocCMiddleware-Example
 
-[![CI Status](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/build.yml/badge.svg)](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/build.yml)
+[![CI Status](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/tests.yml/badge.svg)](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/tests.yml)
 
 An example project for the DocCMiddleware package.
 
