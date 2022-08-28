@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   swift_test:
-    uses: bdrelling/ci/.github/workflows/swift_test_vapor_website.yml@main
+    uses: bdrelling/ci/.github/workflows/swift_test.yml@main
     secrets: inherit
     with:
       scheme: DocCMiddleware-Example
       subcommand: build
+      platforms: macOS Linux
+      swift-versions: 5.6
