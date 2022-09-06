@@ -1,6 +1,9 @@
 # DocCMiddleware-Example
 
 [![CI Status](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/tests.yml/badge.svg)](https://github.com/bdrelling/DocCMiddleware-Example/actions/workflows/tests.yml)
+[![Swift Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbdrelling%2FDocCMiddleware%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/bdrelling/DocCMiddleware)
+[![Platform Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbdrelling%2FDocCMiddleware%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/bdrelling/DocCMiddleware)
+[![License](https://img.shields.io/github/license/bdrelling/Template-Swift?label=)](https://github.com/bdrelling/Template-Swift/blob/main/LICENSE)
 
 An example project for the DocCMiddleware package.
 
