@@ -11,7 +11,7 @@ public func configure(_ app: Application) throws {
 
     // Define our middleware.
     let doccMiddleware = DocCMiddleware(
-        // The directory we're providing is the same as the default directory, 
+        // The directory we're providing is the same as the default directory,
         // this is just an example of how to override the document directory.
         documentationDirectory: app.directory.workingDirectory.appending("Docs/"),
         // Additionally, we leverage the --hosting-base-path to show a slightly more complex example, but you don't need to do it this way.
