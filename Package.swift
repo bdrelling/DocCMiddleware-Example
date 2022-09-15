@@ -7,10 +7,8 @@ let package = Package(
         .macOS(.v12),
     ],
     dependencies: [
-        // 💧 Vapor
         .package(url: "https://github.com/vapor/vapor", from: "4.65.1"),
-        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-        .package(url: "https://github.com/bdrelling/DocCMiddleware", from: "0.0.2"),
+        .package(url: "https://github.com/bdrelling/DocCMiddleware", from: "0.1.1"),
     ],
     targets: [
         // Example
@@ -29,3 +27,10 @@ let package = Package(
         ),
     ]
 )
+
+#if swift(>=5.6)
+// Add Kipple Tools if possible.
+package.dependencies.append(
+    .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0")
+)
+#endif
